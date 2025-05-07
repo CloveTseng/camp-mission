@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 
 body {
   font-family: 'Noto Sans TC', sans-serif;
+  background-color: #fbfbfb;
 }
 html {
   font-size: 16px;
@@ -24,14 +25,12 @@ html {
 
 @layer components {
   .button-primary {
-    @apply font-bold bg-primary rounded-[40px] py-1.5 px-3;
+    @apply font-medium text-gray-500 rounded-[40px] py-2 px-4 border;
   }
-  .button-outline {
-    @apply font-medium;
+  .badge {
+    @apply font-bold text-white bg-primary rounded-[40px] py-1.5 px-3;
   }
   .text-7-bold {
     @apply text-custom-2xl font-bold;
   }
 }
-
-/* - 16px fw 500 text-`[#4b4b4b]` border 1px radius 40px py-8px px-16px  */
