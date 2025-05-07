@@ -5,5 +5,6 @@ import path from "path"
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/camp-mission/',
   plugins: [react(), tailwindcss()], resolve: { alias: { "@": path.resolve(__dirname, "./src"), }, },
 })
