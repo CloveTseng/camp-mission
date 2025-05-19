@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <section className="lg:flex border border-secondary">
-      <picture className="w-1/2">
+      <picture className="w-full lg:w-1/2">
         <source media="(min-width: 640px)" srcSet="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog/About%20Section.png?raw=true" />
         <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/blog/About%20Section.png?raw=true" alt="about-section" />
       </picture>

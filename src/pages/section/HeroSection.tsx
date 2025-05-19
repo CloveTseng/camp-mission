@@ -5,7 +5,7 @@ type HeroSectionProps = {
 const HeroSection = ({ title }: HeroSectionProps) => {
   return (
     <main className="lg:flex">
-      <picture className="w-1/2">
+      <picture className="w-full lg:w-1/2">
         <source media="(min-width: 640px)" srcSet="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section.png?raw=true" />
         <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/Hero%20Section.png?raw=true" alt="hero-alyse" />
       </picture>
