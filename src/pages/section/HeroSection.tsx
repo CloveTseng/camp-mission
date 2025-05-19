@@ -1,11 +1,11 @@
-type MainSectionProps = {
+type HeroSectionProps = {
   title: string;
 }
 
-const MainSection = ({ title }: MainSectionProps) => {
+const HeroSection = ({ title }: HeroSectionProps) => {
   return (
     <main className="lg:flex">
-      <picture>
+      <picture className="w-1/2">
         <source media="(min-width: 640px)" srcSet="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section.png?raw=true" />
         <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/Hero%20Section.png?raw=true" alt="hero-alyse" />
       </picture>
@@ -17,4 +17,4 @@ const MainSection = ({ title }: MainSectionProps) => {
       </hgroup>
     </main>)
 }
-export default MainSection
+export default HeroSection

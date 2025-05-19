@@ -1,5 +1,4 @@
 @import 'tailwindcss';
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 
 body {
   font-family: 'Noto Sans TC', sans-serif;
@@ -32,5 +31,12 @@ html {
   }
   .text-7-bold {
     @apply text-custom-2xl font-bold;
+  }
+
+  .font-overflow {
+    @apply overflow-hidden text-ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
   }
 }

@@ -1,8 +1,8 @@
-import MainSection from "./section/MainSection"
+import HeroSection from "./section/HeroSection"
 
 const Index = () => {
   return (<>
-    <MainSection title="Alyse Wang"/>
+    <HeroSection title="Alyse Wang"/>
   </>)
 }
 export default Index
