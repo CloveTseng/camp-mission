@@ -7,8 +7,8 @@ const Banner = () => {
       </picture>
       <div className="py-12 px-3 my-auto">
         <time dateTime="2024/10/21" className="font-medium mb-1">2024/10/21</time>
-          <div className="flex gap-2 mb-2">
-            <h3 className="text-2xl font-medium text-primary">前端開發 x 職涯成長</h3>
+          <div className="flex gap-2 mb-2 items-center">
+            <h3 className="text-2xl leading-9 font-medium text-primary ">前端開發 x 職涯成長</h3>
             <a className="badge">最新文章</a>
           </div>
           <h2 className="text-7-bold mb-2">自學前端不用怕：從零開始的三大關鍵</h2>

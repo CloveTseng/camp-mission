@@ -39,4 +39,8 @@ html {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
   }
+
+  .placeholder-500::placeholder {
+    @apply font-medium text-gray-500;
+  }
 }
